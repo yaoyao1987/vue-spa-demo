@@ -1,0 +1,57 @@
+.clearfix {
+  @include clearfix();
+}
+
+.hide {
+  display: none !important;
+}
+
+.affix {
+  position: fixed;
+}
+
+//布局
+.flex {
+  display: flex;
+  flex-direction: row;
+}
+
+.row {
+  @extend .p15;
+  @extend .col;
+}
+
+.col {
+  font-size: $font-size-large;
+  word-wrap: break-word;
+  background-color: $row-bg;
+}
+
+//margin && padding
+.mt15 {
+    margin-top: px2rem(15);
+}
+
+.mtb10 {
+    margin: px2rem(10) 0;
+}
+
+.p15 {
+    padding: px2rem(15);
+}
+
+//字体
+.f13 {
+  font-size: $font-size-small;
+}
+
+.heading {
+  font-size: $font-size-small;
+  color: $text-color;
+}
+
+.heading-large {
+  margin: px2rem(15) 0 0 px2rem(15);
+  font-size: $font-size-large;
+  color: $text-color;
+}

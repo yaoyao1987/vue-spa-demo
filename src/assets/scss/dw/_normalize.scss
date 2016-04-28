@@ -1,0 +1,45 @@
+html {
+    font-family: 'microsoft yahei', arial, sans-serif;
+    line-height: $line-height-base;
+    background-color: $body-bg;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+}
+
+@media (-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 2dppx) {
+    body {
+        -webkit-font-smoothing: subpixel-antialiased;
+    }
+}
+
+body {
+    font-size: $font-size-base;
+    margin: 0;
+}
+
+article,
+footer,
+header,
+section {
+    display: block;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+a {
+    background-color: transparent;
+}
+
+a:active,
+a:hover {
+    outline: 0;
+}
+
+img {
+    border: 0;
+}
+

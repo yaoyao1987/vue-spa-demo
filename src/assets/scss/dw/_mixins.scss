@@ -1,0 +1,29 @@
+/*
+* @Author: yaolingyan
+* @Date:   2016-04-18 21:06:09
+* @Last Modified by:   yaolingyan
+* @Last Modified time: 2016-04-26 21:59:14
+*/
+
+// Clearfix
+@mixin clearfix() {
+    &:before,
+    &:after {
+        display: table;
+        content: ' ';
+    }
+    &:after {
+        clear: both;
+    }
+}
+
+@function px2rem($px) {
+    $rem: 37.5;
+    @return ($px/$rem) + rem;
+}
+
+@mixin text-overflow() {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}

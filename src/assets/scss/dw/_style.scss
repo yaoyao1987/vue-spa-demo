@@ -1,0 +1,111 @@
+/*
+* @Author: yaolingyan
+* @Date:   2016-04-18 21:53:48
+* @Last Modified by:   yaolingyan
+* @Last Modified time: 2016-04-26 23:38:53
+*/
+.row-media .col, .row-media .col img {
+    width: 100%;
+    height: px2rem(100);
+}
+
+.row-media .col {
+    position: relative;
+}
+
+.row-media .col h3 {
+    position: absolute;
+    display: flex;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    align-items: center;
+    justify-content: center;
+}
+
+.row-media .btn {
+    position: absolute;
+    right: 0;
+    bottom: px2rem(10);
+    background-color: $btn-default-color;
+}
+
+.blur {
+    filter: blur(10px);
+}
+
+//横向滚动区域
+/*.vscroll-wrapper {
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    width: 100%;
+    height: 1rem;
+    background: #ccc;
+    -ms-touch-action: none;
+}
+
+.vscroll-scroller {
+    position: absolute;
+    z-index: 1;
+    min-width: 100.25%;
+    height: 1rem;
+    user-select: none;
+    transform: translateZ(0);
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-touch-callout: none;
+    text-size-adjust: none;
+}
+
+//progress
+.progress {
+    display: flex;
+    align-items: center;
+}
+
+.progress-bar {
+    height: 3px;
+    background-color: $progressBg;
+    flex: 1;
+}
+
+.progress-inner-bar {
+    width: 50%;
+    height: 3px;
+    background-color: $progressColor;
+}
+
+.expand-transition {
+    overflow: hidden;
+    transition: all .3s ease;
+}
+
+.expand-enter,
+.expand-leave {
+    height: 0;
+    opacity: 0;
+}
+
+.about {
+    display: -webkit-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+    background-color: #fff;
+    -webkit-box-orient: vertical;
+}
+
+.overflow {
+    overflow: hidden;
+}
+
+.line-clamp {
+    -webkit-line-clamp: 2;
+}
+
+.heading {
+    font-size: 13px;
+    color: #333;
+}
+*/

@@ -1,0 +1,24 @@
+/*
+* @Author: yaolingyan
+* @Date:   2016-04-18 21:53:48
+* @Last Modified by:   yaolingyan
+* @Last Modified time: 2016-04-26 22:05:43
+*/
+
+//progress
+.progress {
+    display: flex;
+    align-items: center;
+}
+
+.progress-bar {
+    height: 3px;
+    background-color: $progressBg;
+    flex: 1;
+}
+
+.progress-inner-bar {
+    width: 50%;
+    height: 3px;
+    background-color: $progressColor;
+}
